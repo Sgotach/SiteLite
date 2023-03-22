@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <title>My Portfolio</title>
+  <style>
+    .special-font {
+      font-family: 'Staatliches', cursive;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+    }
+    
+    /* Add your custom styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #252525;
+    }
+    header {
+        background-color: #2b2b2b;
+        color: #fff;
+        padding: 20px;
+      }
+      main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      #profile {
+        width: 30%;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid #1d1d1d;
+        background-color: #333;
+        color: #fff;
+      }
+      #profile img {
+        display: block;
+        margin: 0 auto;
+        border: 5px solid #3cb371;
+        max-width: 100%;
+      }
+      #projects {
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      section.project {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #1d1d1d;
+        box-sizing: border-box;
+        background-color: #2b2b2b;
+        color: #fff;
+      }
+      section.project h3 {
+        color: #3cb371;
+      }
+      footer {
+        background-color: #2b2b2b;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+    .navbar {
+      background-color: #2b2b2b;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .navbar-brand {
+      font-weight: bold;
+      color: #fff;
+    }
+    .navbar-toggler {
+      border: none;
+    }
+    .navbar-toggler:focus {
+      outline: none;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='%23fff'><path d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    }
+    .nav-link {
+      color: #fff;
+    }
+    .nav-link:hover {
+      color: #3cb371;
+      text-decoration: none;
+    }
+    /* Rest of your styles */
+     /* Skills and Contact */
+      #skills, #contact {
+        margin-bottom: 20px;
+      }
+      /* Social Media Icons */
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        list-style: none;
+      }
+      .social-icons li {
+        margin: 0 5px;
+      }
+      .social-icons a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .social-icons a:hover {
+        color: #3cb371;
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Rest of your content -->
+     <h1>My Portfolio</h1>
+     </header>
+    <main>
+      <section id="profile">
+        <img src="profile.jpg" alt="Profile Picture">
+        <h2>John Doe</h2>
+        <p>Web Developer</p>
+        <p>TEXT</p>
+        
+        <div id="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+        
+        <div id="contact">
+          <h3>Contact</h3>
+          <p>Email: john.doe@example.com</p>
+          <p>Phone: +1 123 456 7890</p>
+        </div>
+      </section>
+      
+      <section id="projects">
+        <h2>My Projects</h2>
+        <section class="project">
+
+
+  <style>
+    /* Add your custom styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #252525;
+    }
+    header {
+        background-color: #2b2b2b;
+        color: #fff;
+        padding: 20px;
+      }
+      main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      #profile {
+        width: 30%;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid #1d1d1d;
+        background-color: #333;
+        color: #fff;
+      }
+      #profile img {
+        display: block;
+        margin: 0 auto;
+        border: 5px solid #3cb371;
+        max-width: 100%;
+      }
+      #projects {
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      section.project {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #1d1d1d;
+        box-sizing: border-box;
+        background-color: #2b2b2b;
+        color: #fff;
+      }
+      section.project h3 {
+        color: #3cb371;
+      }
+      footer {
+        background-color: #2b2b2b;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+    .navbar {
+      background-color: #2b2b2b;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .navbar-brand {
+      font-weight: bold;
+      color: #fff;
+    }
+    .navbar-toggler {
+      border: none;
+    }
+    .navbar-toggler:focus {
+      outline: none;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='%23fff'><path d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    }
+    .nav-link {
+      color: #fff;
+    }
+    .nav-link:hover {
+      color: #3cb371;
+      text-decoration: none;
+    }
+    /* Rest of your styles */
+     /* Skills and Contact */
+      #skills, #contact {
+        margin-bottom: 20px;
+      }
+      /* Social Media Icons */
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        list-style: none;
+      }
+      .social-icons li {
+        margin: 0 5px;
+      }
+      .social-icons a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .social-icons a:hover {
+        color: #3cb371;
+      }
+  </style>
+</head>
+<body>
+  <header>
+
+  </header>
+  <!-- Rest of your content -->
+
+    </header>
+    <main>
+     
+      
+<section id="projects">
+
+  <section class="project">
+    <h3>Abstract Art Exhibition</h3>
+    <img src="project1.jpg" alt="Abstract Art Exhibition" width="300" height="200">
+    <p>TEXT</p>
+  </section>
+  <section class="project">
+    <h3>Sculpture Garden</h3>
+    <img src="project2.jpg" alt="Sculpture Garden" width="300" height="200">
+    <p>TEXT</p>
+  </section>
+  <section class="project">
+    <h3>Interactive Light Installation</h3>
+    <img src="project3.jpg" alt="Interactive Light Installation" width="300" height="200">
+    <p>TEXT</p>
+  </section>
+</section>
+
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 John Doe</p>
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://www.github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+  </body>
+</html> 
+    </main>
+    
+    <footer>
+
+    </footer>
+    
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+   <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+    </script>
+  </body>
+</html>
